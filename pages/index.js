@@ -5,6 +5,16 @@ export default () => (
     <Head>
       <title>@Watch – Internet Time, on your wrist</title>
     </Head>
+    <img
+      style={{
+        display: 'block',
+        width: 256,
+        maxWidth: '100%',
+        margin: '0 auto'
+      }}
+      src="/static/apple-watch-hero.png"
+      alt="Photograph of Apple Watch running @Watch, showing the time is 10:09, and the internet time is @006"
+    />
     <p>@Watch brings Internet Time to your iPhone, iPad and Apple Watch!</p>
     <p>
       <center>
