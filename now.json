@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "alias": [
+    "at-watch.jessicastokes.net"
+  ],
   "builds": [
     { "src": "next.config.js", "use": "@now/next@canary" }
   ]
