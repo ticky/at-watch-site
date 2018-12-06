@@ -4,6 +4,6 @@
     "at-watch.jessicastokes.net"
   ],
   "builds": [
-    { "src": "next.config.js", "use": "@now/next@canary" }
+    { "src": "next.config.js", "use": "@now/next" }
   ]
 }
