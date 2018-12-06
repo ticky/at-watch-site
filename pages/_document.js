@@ -83,9 +83,8 @@ export default class CustomDocument extends Document {
           <nav>
             <ul>
               <li><Link href="/">Home</Link></li>
-              <li><a href="TBA!!!">App Store</a></li>
               <li><Link href="/support">Support</Link></li>
-              <li><Link href="/privacy-policy">Privacy Policy</Link></li>
+              <li><Link href="/privacy-policy">Privacy</Link></li>
             </ul>
           </nav>
           <NextScript />
