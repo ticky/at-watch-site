@@ -15,7 +15,7 @@ export default () => (
       src="/static/apple-watch-hero.png"
       alt="Photograph of Apple Watch running @Watch, showing the time is 10:09, and the internet time is @006"
     />
-    <p>@Watch brings Internet Time to your iPhone, iPad and Apple Watch!</p>
+    <p>@Watch brings Internet Time to your Apple Watch!</p>
     <p>
       <center>
         <a href="TBA!!!">
