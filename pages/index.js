@@ -18,7 +18,7 @@ export default () => (
     <p>@Watch brings Internet Time to your Apple Watch!</p>
     <p>
       <center>
-        <a href="TBA!!!">
+        <a href="https://apps.apple.com/app/at-watch/id1440309007">
           <img
             style={{ verticalAlign: 'middle' }}
             src="/static/download-on-the-app-store.svg"
