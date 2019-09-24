@@ -1,4 +1,5 @@
 import App from 'next/app'
+import Head from 'next/head'
 import Link from 'next/link'
 
 export default class CustomApp extends App {
@@ -6,6 +7,9 @@ export default class CustomApp extends App {
     const { Component, pageProps } = this.props
     return (
       <React.Fragment>
+        <Head>
+          <meta name="disabled-adaptations" content="watch" />
+        </Head>
         <style global jsx>{`
           * {
             box-sizing: border-box;
