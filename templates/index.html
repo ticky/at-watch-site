@@ -1,0 +1,29 @@
+{% extends "base.html" %}
+
+{% block title %}@Watch{% endblock title %}
+
+{% block body %}
+<img
+  style="display: block; width: 256px; max-width: 100%; margin: 0 auto;"
+  src="{{ get_url(path="apple-watch-hero.png") }}"
+  alt="Photograph of Apple Watch running @Watch, showing the time is 10:09, and the internet time is @006"
+/>
+
+<p>@Watch brings Internet Time to your Apple Watch!</p>
+
+<center>
+  <a href="https://apps.apple.com/app/at-watch/id1440309007">
+    <img
+      style="vertical-align: middle;"
+      src="{{ get_url(path="download-on-the-app-store.svg") }}"
+      alt="Download on the App Store"
+    />
+  </a>
+</center>
+
+<p>
+  <small>
+    Apple, the Apple logo, Apple Watch, iPhone, and iPad are trademarks of Apple Inc., registered in the U.S. and other countries and regions. App Store is a service mark of Apple Inc.
+  </small>
+</p>
+{% endblock body %}
